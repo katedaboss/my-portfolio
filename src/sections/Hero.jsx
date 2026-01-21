@@ -13,12 +13,11 @@ const skills = [
   "React",
   "Next.js",
   "TypeScript",
-  "Node.js",
   "JavaScript",
   "Vercel",
   "Tailwind CSS",
   "Git",
-  "GitHub Actions",
+  "GitHub",
 ];
 
 export const Hero = () => {
