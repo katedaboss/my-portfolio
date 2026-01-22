@@ -3,6 +3,7 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { BsTwitterX } from "react-icons/bs";
 import { FaArrowRight, FaChevronDown } from "react-icons/fa6";
+import { Download } from "lucide-react";
 
 const skills = [
   "React",
@@ -80,7 +81,10 @@ export const Hero = () => {
               <Button size="lg">
                 Contact Me <FaArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton />
+              <AnimatedBorderButton>
+                <Download className="w-5 h-5" />
+                Download CV
+              </AnimatedBorderButton>
             </div>
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">
@@ -137,7 +141,7 @@ export const Hero = () => {
         {/* Skills Section */}
         <div className="mt-20 animate-fade-in animation-delay-600">
           <p className="text-sm text-muted-foreground mb-6 text-center">
-            Technologies i work with
+            Technologies I work with
           </p>
           <div className="relative overflow-hidden">
             <div className="flex animate-marquee">
