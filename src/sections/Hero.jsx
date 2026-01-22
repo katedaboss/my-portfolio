@@ -1,21 +1,18 @@
-import {
-  ArrowRight,
-  ChevronDown,
-  Download,
-  Github,
-  Linkedin,
-  X,
-} from "lucide-react";
 import { Button } from "../components/Button";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
+import { FiGithub, FiLinkedin } from "react-icons/fi";
+import { BsTwitterX } from "react-icons/bs";
+import { FaArrowRight, FaChevronDown } from "react-icons/fa6";
 
 const skills = [
   "React",
+  "Tailwind CSS",
   "Next.js",
   "TypeScript",
-  "JavaScript",
+  "Python",
   "Vercel",
-  "Tailwind CSS",
+  "JavaScript",
+  "C",
   "Git",
   "GitHub",
 ];
@@ -57,7 +54,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-2 background-glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer
+                Web Developer
               </span>
             </div>
 
@@ -81,7 +78,7 @@ export const Hero = () => {
             {/* CTA */}
             <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
               <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
+                Contact Me <FaArrowRight className="w-5 h-5" />
               </Button>
               <AnimatedBorderButton />
             </div>
@@ -90,16 +87,16 @@ export const Hero = () => {
               <span className="text-sm text-muted-foreground"></span>
               <span>Follow me: </span>
               {[
-                { icon: Github, href: "" },
-                { icon: Linkedin, href: "" },
-                { icon: X, href: "" },
+                { icon: FiGithub, href: "" },
+                { icon: FiLinkedin, href: "" },
+                { icon: BsTwitterX, href: "" },
               ].map((social, idx) => (
                 <a
                   key={idx}
                   href={social.href}
                   className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300"
                 >
-                  (<social.icon className="w-5 h-5" />)
+                  <social.icon className="w-5 h-5" />
                 </a>
               ))}
             </div>
@@ -111,7 +108,7 @@ export const Hero = () => {
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse" />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
+                  src="/1764539837980.jpg"
                   alt="Catherine Ucherike"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
@@ -165,7 +162,7 @@ export const Hero = () => {
           className="flex flex-col items-center gap-2 text-muted-foreground hover:text-primary transition-colors group"
         >
           <span className="text-xs uppercase tracking-wider">Scroll</span>
-          <ChevronDown className="w-6 h-6 animate-bounce" />
+          <FaChevronDown className="w-6 h-6 animate-bounce" />
         </a>
       </div>
     </section>
