@@ -25,7 +25,7 @@ export const Navbar = () => {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 transition-all duration-500 ${
+      className={`fixed top-0 left-0 right-0 duration-500 transition-[padding,background-color] ${
         isScrolled ? "glass-strong py-3" : "bg-transparent py-5"
       } z-50`}
     >
