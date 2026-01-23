@@ -49,10 +49,10 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 2 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
+                I'm a passionate web developer with over 2 years of experience
+                crafting digital products that make a difference. My journey
+                started with a curiosity for how things work on the web, and it
+                has evolved into a deep expertise in modern frontend
                 technologies.
               </p>
               <p>
