@@ -4,40 +4,40 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Beauty Brand Website",
     description:
       "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+    image: "/projects/my-project1.png",
+    tags: ["Next.js", "Typescript", "Tailwind"],
+    link: "https://www.signaturebybell.com",
+    github: "https://github.com/Victorgreene123/signaturebybell.git",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Virtual Reality Landing Page",
     description:
       "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+    image: "/projects/my-project2.png",
+    tags: ["React.js", "Tailwind", "Vercel"],
+    link: "https://virtualr-services.vercel.app/",
+    github: "https://github.com/katedaboss/virtualr.git",
   },
   {
-    title: "AI Writing Assistant",
+    title: "RUN-IT",
     description:
       "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+    image: "/projects/my-project3.png",
+    tags: ["Next.js", "Tailwind", "Github"],
+    link: "/",
+    github: "https://github.com/Victorgreene123/run-it.git",
   },
   {
-    title: "Project Management Tool",
+    title: "Portfolio 1.0",
     description:
       "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+    image: "/projects/my-project4.png",
+    tags: ["HTML", "CSS", "Netlify"],
+    link: "https://kateportfolio1.netlify.app",
+    github: "https://github.com/katedaboss/Portfolio_Project.git",
   },
 ];
 
@@ -136,10 +136,12 @@ export const Projects = () => {
 
         {/* View All CTA */}
         <div className="text-center mt-12 animate-fade-in animation-delay-500">
-          <AnimatedBorderButton>
-            View All Projects
-            <ArrowUpRight className="w-5 h-5" />
-          </AnimatedBorderButton>
+          <a href="https://github.com/katedaboss">
+            <AnimatedBorderButton>
+              View All Projects
+              <ArrowUpRight className="w-5 h-5" />
+            </AnimatedBorderButton>
+          </a>
         </div>
       </div>
     </section>

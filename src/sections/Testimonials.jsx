@@ -4,7 +4,7 @@ import { useState } from "react";
 const testimonials = [
   {
     quote:
-      "Pedro is one of the most talented engineers I've worked with. His attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
+      "Catherine is one of the most talented engineers I've worked with. Her attention to detail and ability to translate complex requirements into elegant solutions is remarkable.",
     author: "Sarah Chen",
     role: "CTO, Tech Innovators Inc.",
     avatar:
@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     quote:
-      "Working with Pedro was a game-changer for our project. He delivered ahead of schedule with code quality that set a new standard for our team.",
+      "Working with Catherine was a game-changer for our project. She delivered ahead of schedule with code quality that set a new standard for our team.",
     author: "Michael Rodriguez",
     role: "Product Manager, Digital Solutions",
     avatar:
@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     quote:
-      "Pedro's expertise in React and TypeScript helped us rebuild our entire frontend in record time. His architectural decisions continue to pay dividends.",
+      "Catherine's expertise in React and TypeScript helped us rebuild our entire frontend in record time. Her architectural decisions continue to pay dividends.",
     author: "Emily Watson",
     role: "Engineering Lead, StartUp Labs",
     avatar:
@@ -28,7 +28,7 @@ const testimonials = [
   },
   {
     quote:
-      "Not only is Pedro technically brilliant, but he's also a fantastic communicator and team player. He elevated everyone around him.",
+      "Not only is Catherine technically brilliant, but he's also a fantastic communicator and team player. She elevated everyone around her.",
     author: "David Kim",
     role: "CEO, Innovation Hub",
     avatar:

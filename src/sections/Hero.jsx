@@ -72,7 +72,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Catherine Ucherike — a software engineer specializing in
+                Hi, I'm Catherine Ucherike — a web developer specializing in
                 React, Next.js, and TypeScript. I build scalable, performant web
                 applications that users love.
               </p>
@@ -92,9 +92,12 @@ export const Hero = () => {
               <span className="text-sm text-muted-foreground"></span>
               <span>Follow me: </span>
               {[
-                { icon: FiGithub, href: "" },
-                { icon: FiLinkedin, href: "" },
-                { icon: BsTwitterX, href: "" },
+                { icon: FiGithub, href: "https://github.com/katedaboss" },
+                {
+                  icon: FiLinkedin,
+                  href: "https://www.linkedin.com/in/ucherike-catherine-77a2192a5",
+                },
+                { icon: BsTwitterX, href: "https://x.com/katedaboss1" },
               ].map((social, idx) => (
                 <a
                   key={idx}

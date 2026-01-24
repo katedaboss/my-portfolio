@@ -2,9 +2,13 @@ import { BsTwitterX } from "react-icons/bs";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 
 const socialLinks = [
-  { icon: FiGithub, href: "#", label: "GitHub" },
-  { icon: FiLinkedin, href: "#", label: "LinkedIn" },
-  { icon: BsTwitterX, href: "#", label: "Twitter" },
+  { icon: FiGithub, href: "https://github.com/katedaboss", label: "GitHub" },
+  {
+    icon: FiLinkedin,
+    href: "https://www.linkedin.com/in/ucherike-catherine-77a2192a5",
+    label: "LinkedIn",
+  },
+  { icon: BsTwitterX, href: "https://x.com/katedaboss1", label: "Twitter" },
 ];
 
 const footerLinks = [
