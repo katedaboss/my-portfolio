@@ -63,18 +63,20 @@ export const Hero = () => {
             {/* Meadline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
+                Building{" "}
+                <span className="text-primary glow-text">innovative</span>
                 <br />
-                experiences with
+                solutions with
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  precison
+                  precision
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Catherine Ucherike — a web developer specializing in
-                React, Next.js, and TypeScript. I build scalable, performant web
-                applications that users love.
+                I’m Catherine Ucherike, a frontend developer passionate about
+                crafting sleek, high-performing web applications with React,
+                Next.js, and TypeScript. I’m big on clean code, pixel-perfect
+                design, and smooth, frustration-free experiences
               </p>
             </div>
             {/* CTA */}
@@ -116,7 +118,7 @@ export const Hero = () => {
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse" />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/1764539837980.jpg"
+                  src="/my-pic.jpg"
                   alt="Catherine Ucherike"
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />

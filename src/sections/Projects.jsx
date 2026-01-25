@@ -4,18 +4,18 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const projects = [
   {
-    title: "Beauty Brand Website",
+    title: "Signature By Bell",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "A stylish website for a beauty brand offering services like facials, hair styling, makeup, and lashes. Designed to showcase services, provide smooth booking, and create an engaging user experience.",
     image: "/projects/my-project1.png",
     tags: ["Next.js", "Typescript", "Tailwind"],
     link: "https://www.signaturebybell.com",
     github: "https://github.com/Victorgreene123/signaturebybell.git",
   },
   {
-    title: "Virtual Reality Landing Page",
+    title: "VirtualR",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      "A visually engaging landing page for a virtual reality services company, designed to introduce offerings and drive user interaction.",
     image: "/projects/my-project2.png",
     tags: ["React.js", "Tailwind", "Vercel"],
     link: "https://virtualr-services.vercel.app/",
@@ -24,7 +24,7 @@ const projects = [
   {
     title: "RUN-IT",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
+      "A platform that connects users with verified and authorized people to manage tasks efficiently",
     image: "/projects/my-project3.png",
     tags: ["Next.js", "Tailwind", "Github"],
     link: "/",
@@ -33,7 +33,7 @@ const projects = [
   {
     title: "Portfolio 1.0",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
+      "A personal portfolio website showcasing projects, skills, and experience, built as a clean, responsive, and interactive platform.",
     image: "/projects/my-project4.png",
     tags: ["HTML", "CSS", "Netlify"],
     link: "https://kateportfolio1.netlify.app",

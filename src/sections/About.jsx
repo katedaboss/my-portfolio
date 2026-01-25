@@ -49,29 +49,31 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate web developer with over 2 years of experience
-                crafting digital products that make a difference. My journey
-                started with a curiosity for how things work on the web, and it
-                has evolved into a deep expertise in modern frontend
-                technologies.
+                My journey into web development started with my love for art,
+                colour, and creative expression. I’ve always been drawn to
+                beauty and meaning in visual form, and when I discovered
+                technology, web development became the perfect fusion of both
+                worlds. It felt natural, like I had found the space where logic
+                and creativity could truly meet.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                With React, Next.js, and TypeScript, I create everything from
+                sleek landing pages to complex digital products. I care deeply
+                about clean architecture, refined design, and experiences
+                polished down to the smallest detail. Yes, I’m a bit of a
+                perfectionist.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                Outside of coding, you’ll find me exploring new tech, reading
+                books especially philosophy, gaming, trying new recipes, writing
+                my thoughts, and grounding everything in faith. I believe growth
+                is a lifelong journey in skill, in character, and in purpose.
               </p>
             </div>
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "I’m driven to craft build digital products that unite visual
+                appeal, intuitive use, and precise engineering."
               </p>
             </div>
           </div>
