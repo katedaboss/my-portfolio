@@ -113,7 +113,7 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-50%);
+      transform: translateX(-100%);
     }
   }
 
@@ -124,9 +124,16 @@
   .animate-float {
     animation: float 4s ease-in-out infinite;
   }
-
   .animate-marquee {
     animation: marquee 30s linear infinite;
+  }
+
+  @media (max-width: 640px) {
+    .animate-marquee {
+      width: max-content;
+      display: flex;
+      animation: marquee 60s linear infinite;
+    }
   }
 
   .animation-delay-100 {

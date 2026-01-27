@@ -22,7 +22,7 @@ export const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Bg */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 pointer-events-none">
         <img
           src="/hero-bg.jpg"
           alt="hero image"
@@ -165,7 +165,7 @@ export const Hero = () => {
 
       <div
         className="absolute bottom-8 left-1/2 -translate-x-1/2 
-      animate-fade-in animation-delay-800"
+      animate-fade-in animation-delay-800 z-20"
       >
         <a
           href="#about"
