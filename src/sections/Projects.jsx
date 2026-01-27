@@ -7,7 +7,7 @@ const projects = [
     title: "Signature By Bell",
     description:
       "A stylish website for a beauty brand offering services like facials, hair styling, makeup, and lashes. Designed to showcase services, provide smooth booking, and create an engaging user experience.",
-    image: "/projects/my-project1.png",
+    image: "/projects/my-project1.webp",
     tags: ["Next.js", "Typescript", "Tailwind"],
     link: "https://www.signaturebybell.com",
     github: "https://github.com/Victorgreene123/signaturebybell.git",
@@ -16,7 +16,7 @@ const projects = [
     title: "VirtualR",
     description:
       "A visually engaging landing page for a virtual reality services company, designed to introduce offerings and drive user interaction.",
-    image: "/projects/my-project2.png",
+    image: "/projects/my-project2.webp",
     tags: ["React.js", "Tailwind", "Vercel"],
     link: "https://virtualr-services.vercel.app/",
     github: "https://github.com/katedaboss/virtualr.git",
@@ -25,7 +25,7 @@ const projects = [
     title: "RUN-IT",
     description:
       "A platform that connects users with verified and authorized people to manage tasks efficiently",
-    image: "/projects/my-project3.png",
+    image: "/projects/my-project3.webp",
     tags: ["Next.js", "Tailwind", "Github"],
     link: "/",
     github: "https://github.com/Victorgreene123/run-it.git",
@@ -34,7 +34,7 @@ const projects = [
     title: "Portfolio 1.0",
     description:
       "A personal portfolio website showcasing projects, skills, and experience, built as a clean, responsive, and interactive platform.",
-    image: "/projects/my-project4.png",
+    image: "/projects/my-project4.webp",
     tags: ["HTML", "CSS", "Netlify"],
     link: "https://kateportfolio1.netlify.app",
     github: "https://github.com/katedaboss/Portfolio_Project.git",
