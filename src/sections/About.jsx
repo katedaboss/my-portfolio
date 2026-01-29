@@ -72,8 +72,8 @@ export const About = () => {
             </div>
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "I’m driven to craft build digital products that unite visual
-                appeal, intuitive use, and precise engineering."
+                "I’m driven to build digital products that unite visual appeal,
+                intuitive use, and precise engineering."
               </p>
             </div>
           </div>
