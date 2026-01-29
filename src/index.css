@@ -35,11 +35,14 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
-    font-family: "Inter", sans-serif;
+    font-family: "Funnel Display", sans-serif;
   }
 
   .font-serif {
     font-family: "Playfair Display", serif;
+  }
+  .font-funnel {
+    font-family: "Funnel Display", sans-serif;
   }
 }
 
