@@ -76,7 +76,7 @@ export const Hero = () => {
                 I’m Catherine Ucherike, a frontend developer passionate about
                 crafting sleek, high-performing web applications with React,
                 Next.js, and TypeScript. I’m big on clean code, pixel-perfect
-                design, and smooth, frustration-free experiences
+                design and smooth experiences
               </p>
             </div>
             {/* CTA */}
