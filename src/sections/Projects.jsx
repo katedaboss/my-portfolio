@@ -13,6 +13,15 @@ const projects = [
     github: "https://github.com/Victorgreene123/signaturebybell.git",
   },
   {
+    title: "VitalScan",
+    description:
+      "A platform that enables users to assess cardiovascular health through a simple face scan and connect with AI-assisted pre-consultation tools to manage symptoms and share insights with doctors efficiently.",
+    image: "/projects/my-project4.webp",
+    tags: ["Next.js", "Express.js", "NeonDB", "OpenAI"],
+    link: "https://cavista-unik.vercel.app/",
+    github: "https://github.com/Victorgreene123/cavista-unik.git",
+  },
+  {
     title: "VirtualR",
     description:
       "A visually engaging landing page for a virtual reality services company, designed to introduce offerings and drive user interaction.",
@@ -27,17 +36,8 @@ const projects = [
       "A platform that connects users with verified and authorized people to manage tasks efficiently",
     image: "/projects/my-project3.webp",
     tags: ["Next.js", "Tailwind", "Github"],
-    link: "/",
+    link: "https://www.joinrunit.com/",
     github: "https://github.com/Victorgreene123/run-it.git",
-  },
-  {
-    title: "Portfolio 1.0",
-    description:
-      "A personal portfolio website showcasing projects, skills, and experience, built as a clean, responsive, and interactive platform.",
-    image: "/projects/my-project4.webp",
-    tags: ["HTML", "CSS", "Netlify"],
-    link: "https://kateportfolio1.netlify.app",
-    github: "https://github.com/katedaboss/Portfolio_Project.git",
   },
 ];
 
